@@ -2,13 +2,13 @@
 
 int main()
 {
-    int a, b;
+    float a, b;
 
     printf("1-sonni kiriting = ");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     printf("2-sonni kiriting = ");
-    scanf("%d", &b);
-    printf("Yig'indi:  %d\n", a + b);
+    scanf("%f", &b);
+    printf("Yig'indi:  %0.1f\n", a + b);
     
 }
